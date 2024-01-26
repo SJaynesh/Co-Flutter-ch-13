@@ -196,8 +196,8 @@ void main() async {
 <br>
 
 <pre>
-  startTimer({required int start, required int end}) {
-  Future.delayed(
+  Future<void> startTimer({required int start, required int end}) async {
+  await Future.delayed(
     Duration(seconds: 1),
     () {
       if (start <= end) {
