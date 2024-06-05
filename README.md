@@ -46,8 +46,9 @@
 
 <br>
 
-#### 1. Future class
-#### 2. Stream class
+#### 1. Future Class
+#### 2. Timer Class
+#### 3. Stream Class
 
 
 <br><br>
@@ -58,6 +59,12 @@
 <br> 
 
 > `Future.delayed` => Duration() <br>
+
+
+## Timer Class :
+
+<br> 
+
 > `Timer.periodic` => Duration()
 
 
